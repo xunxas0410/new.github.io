@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -81,13 +88,6 @@ a {
     width: 50%;
     margin: auto;
   }
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -227,6 +227,13 @@ select {
           transform: rotateY(180deg);
 }
 
+.product_img_3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .8s ease-in;
+  transition: all .8s ease-in;
+}
+
 @media (max-width: 568px) {
   .product {
     padding: 0;
@@ -257,7 +264,6 @@ select {
   background-image: url(./image/footer1.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 .introduction p {
@@ -280,7 +286,7 @@ footer {
 
 footer p {
   color: #aaa;
-  padding: 20px;
+  padding: 10px;
 }
 
 .service {
